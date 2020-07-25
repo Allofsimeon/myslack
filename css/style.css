@@ -1,0 +1,22 @@
+
+
+.subtext{
+    text-decoration: none;
+    display: inline-block;
+  position: relative;
+}
+.subtext:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    background: rgb(37, 55, 156);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .subtext:hover:after { 
+    width: 100%; 
+    
+  }

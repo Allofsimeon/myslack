@@ -1,0 +1,18 @@
+{
+  "name": "myslack",
+  "version": "1.0.0",
+  "description": "new Project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "post-cli": "^1.0.5",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.5.1"
+  }
+}
